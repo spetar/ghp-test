@@ -1,0 +1,32 @@
+# Site settings
+title: My test title
+description: Testing jekyll
+baseurl: "" # Set this if your site is hosted in a subdirectory
+
+# Build settings
+theme: jekyll-theme-minimal # Change this to your desired theme
+plugins:
+  # Add any additional plugins you want to use here
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Exclude files and directories from the build process
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
+
+# GitHub Pages specific configuration
+remote_theme: # Specify if you're using a remote theme
+github_pages:
+  enabled: true
+  # Set this if your site is hosted in a subdirectory
+  subdomain: /docs
+
+# Customize URLs
+permalink: pretty
