@@ -4,7 +4,7 @@ description: Testing jekyll
 baseurl: "" # Set this if your site is hosted in a subdirectory
 
 # Build settings
-theme: jekyll-theme-minimal # Change this to your desired theme
+theme:  # jekyll-theme-minimal # Change this to your desired theme
 plugins:
   # Add any additional plugins you want to use here
 
